@@ -79,11 +79,11 @@ void* thread2(void *a)
     - 알고리즘 적용에 따른 오버헤드가 큼
       
 - 교착 상태 감지 및 복구
-  - 자원 장제 선점(preemption)
+  - 자원 강제 선점(preemption)
   - 롤백(rollback)
   - 스레드 강제 종료(kill process)
 
-- 교착 상태 무시 : 타조(Ostroch)
+- 교착 상태 무시 : 타조(Ostrich)
   - 교착 상태는 반드시 발생하나 빈도가 적다
   - Put your head in the sand
 
